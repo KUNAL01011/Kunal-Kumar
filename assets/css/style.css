@@ -1381,6 +1381,33 @@ textarea.form-input::-webkit-resizer {
  * responsive larger than 580px screen
  */
 
+@media (max-width:580px){
+  .logo-img{
+    width: 80px;
+  }
+  .title{
+    width:250px !important;
+  }
+  .empty-blog-page {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  }
+}
+@media (max-width:450px){
+  .logo-img{
+    width: 80px;
+  }
+  .title{
+    width:200px !important;
+  }
+  .empty-blog-page {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  }
+}
+
 @media (min-width: 580px) {
   /**
    * CUSTOM PROPERTY
@@ -1445,7 +1472,7 @@ textarea.form-input::-webkit-resizer {
     max-height: 180px;
     margin-bottom: 30px;
   }
-
+ 
   .sidebar.active {
     max-height: 584px;
   }
